@@ -1,0 +1,10 @@
+feedparser
+sentence-transformers
+scikit-learn
+keybert
+textblob
+wordcloud
+gradio
+matplotlib
+pandas
+numpy
