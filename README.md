@@ -2,7 +2,7 @@
 
 An end-to-end NLP system that pulls live news articles from multiple outlets, uses semantic embeddings and unsupervised clustering to automatically group articles that cover the *same real-world event*, then quantifies how differently each outlet framed that event — tone, sentiment, subjectivity, and keyword emphasis — through an interactive Gradio dashboard.
 
-**Google Colab Link:** `[paste your Colab share link here]`
+**Google Colab Link:** https://colab.research.google.com/drive/1kirqA0fZFUIfgc-4-KA7AAmTzbtHLSss?usp=sharing
 
 `Python` `sentence-transformers` `scikit-learn` `KeyBERT` `TextBlob` `Gradio` `feedparser`
 
@@ -14,14 +14,13 @@ An end-to-end NLP system that pulls live news articles from multiple outlets, us
 |---|---|
 | Project Title | AI-Powered News Bias & Fact Clustering Engine |
 | Type | Independent / self-directed AI-ML project |
-| Duration | `[e.g. June 2026 – July 2026]` |
-| Name | `[Your Name]` |
-| Institution | `[Your Institution]` |
-| Course / Branch | `[Your Course / Branch]` |
-| Email | `[your email]` |
-| LinkedIn | `[your LinkedIn URL]` |
-| GitHub | `[your GitHub URL]` |
-
+| Duration | June 2026 – July 2026 |
+| Name | Aakanksha Ekka |
+| Institution | Indira Gandhi Delhi Technical University for Women (IGDTUW) |
+| Course / Branch | B.Tech, Computer Science Engineering (CSE) |
+| Email | aakankshaekka06@gmail.com |
+| LinkedIn | https://www.linkedin.com/in/aakanksha-ekka-3b1166329/ |
+| GitHub | https://github.com/AAKANKSHAEKKA/News-Bias-Fact-Clustering-Engine |
 ---
 
 ## 📌 Project Name
@@ -161,12 +160,12 @@ This is unedited output from an actual run of the notebook (July 4, 2026), clust
 
 **Tone spread across outlets:** polarity range **0.32** | subjectivity range **0.59**
 
-![Sample sentiment chart](assets/sample_sentiment_chart.png)
-![Sample framing keywords word cloud](assets/sample_wordcloud.png)
+![Sample sentiment chart](sample_sentiment_chart.png)
+![Sample framing keywords word cloud](sample_wordcloud.png)
 
 **The live Gradio app**, launched directly from the notebook's last cell, lets you pick any cross-outlet event from a dropdown and pull up this same comparison interactively:
 
-![Gradio app interface](assets/sample_gradio_ui.png)
+![Gradio app interface](sample_gradio_ui.png)
 
 ## 🏆 Key Result
 
@@ -206,8 +205,8 @@ This project delivers a complete, reproducible pipeline for detecting cross-outl
 - **RSS feeds can break.** If any single feed URL 404s, the pipeline logs a warning and continues with the remaining outlets rather than crashing.
 - **Clustering is threshold-sensitive.** The `DISTANCE_THRESHOLD` parameter directly controls how many cross-outlet clusters form; it's exposed as a tunable constant in the notebook rather than hidden.
 - **Sentiment scores reflect word-level tone, not event severity.** As shown in the real output above, ceremonial coverage of somber events can score as net-positive — this is a property of lexicon-based sentiment tools in general, not a bug specific to this project.
-- Remember to replace every `[bracketed placeholder]` in this README (Colab link, name, institution, contact info) with your actual information before publishing.
-
+- All project details and contact information have been updated with the author's information.
+  
 ## 📄 License
 This project is released under the [MIT License](LICENSE) — free to use, modify, and build upon with attribution.
 
@@ -215,6 +214,6 @@ This project is released under the [MIT License](LICENSE) — free to use, modif
 Built using open-source tools: Python, Pandas, NumPy, Sentence-Transformers, Scikit-learn, KeyBERT, TextBlob, Matplotlib, WordCloud, Gradio, and feedparser.
 
 ---
-🚀 `[Your Name]`
-🤖 AI/ML Enthusiast
-📧 `[Email]` • 💼 `[LinkedIn]` • 💻 `[GitHub]`
+ Aakanksha Ekka  
+ AI/ML Enthusiast  
+ aakankshaekka06@gmail.com •  https://www.linkedin.com/in/aakanksha-ekka-3b1166329/ •  https://github.com/AAKANKSHAEKKA/News-Bias-Fact-Clustering-Engine
